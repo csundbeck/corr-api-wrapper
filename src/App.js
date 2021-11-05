@@ -10,10 +10,10 @@ class App extends React.Component {
     super(props)
     this.state = {
       //***API USER CREDENTIALS BEGIN***//
-      AliasName: process.env.ALIAS_NAME,
+      AliasName: process.env.REACT_APP_ALIAS_NAME,
       Company: '',
-      LoginID: process.env.LOGIN_ID,
-      LoginPassword: process.env.LOGIN_PASSWORD,
+      LoginID: process.env.REACT_APP_LOGIN_ID,
+      LoginPassword: process.env.REACT_APP_LOGIN_PASSWORD,
       //***API USER CREDENTIALS END***//
     }
   }
