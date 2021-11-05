@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiFormControl-root {
+  display: block
+}
+
+.MuiTextField-root {
+  display: block
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#simple-tabpanel-1 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.MuiTabs-root {
+  margin-top: 10.5em;
+  width: 100%;
+}
+
+.MuiBox-root .MuiBox-root-6 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.MuiTypography-root .MuiTypography-body1 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.MuiBox-root {
+  display: flex;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-self: center;
+  align-self: center;
+}
+
+p {
+  padding-bottom: 1%;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+#customizeRatesLabel {
+  padding-bottom: 0;
+}
+
+#checkBoxContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+.MuiInput-underline {
+  width: 500px;
+}
+
+.headerBtnDiv {
+  display: grid;
+  grid-template-columns: 10% 10%;
+  grid-template-rows: 100%;
+  gap: 0 80%;
+  width: 100%;
+}
+
+#logoutBtn {
+  color: #FFFFFF;
+  align-self: flex-end;
+  margin-right: 1%;
+  margin-bottom: 5px;
+  background-color: #0000AE;
+  border: 2px #ffffff solid;
+  border-radius: 10px;
+  padding: auto 1%
+}
+
+#homeBtn {
+  color: #FFFFFF;
+  align-self: flex-start;
+  margin-right: 1%;
+  margin-bottom: 5px;
+  background-color: #0000AE;
+  border: 2px #ffffff solid;
+  border-radius: 10px;
+  padding: auto 1%
+}
+
+.batchFileSelect > * {
+  margin-bottom: 10%;
+}
+
+.homeDiv {
+  margin-top: 8em;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.homeDiv button .MuiButton-label {
+  float: left;
+}
+
+
+.homeDiv button:hover {
+  transform: 1.2;
+  transition: 0.2s;
+}
+
+.updateTabGroup {
+  margin-top: 10px
+}
+
+.requestTabGroup {
+  box-shadow: 0 2px 4px gray;
+  margin-top: 8em;
+  width: 100%
+}
